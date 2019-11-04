@@ -10,6 +10,6 @@ console.log(
 )
 
 function docOnload() {
-  document.getElementbyId("text")
+  document.getElementById("text")
   .innerhtml = "This is Really Cool"
 }
