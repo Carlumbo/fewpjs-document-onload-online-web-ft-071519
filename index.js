@@ -11,5 +11,5 @@ console.log(
 
 function docOnload() {
   document.getElementById("text")
-  .innerhtml = "This is Really Cool"
+  .innerhtml = "This is Really Cool!"
 }
