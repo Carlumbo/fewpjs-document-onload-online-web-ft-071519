@@ -2,9 +2,14 @@
 
 
 document.addEventListener("DOMContentLoaded", function() {
-  console.log("The DOM has loaded");
+  docOnload()
 })
 
 console.log(
   "This Console.log() fires when index.js loads - before DOMcontentLoaded is triggered"
 )
+
+function docOnload() {
+  document.getElementbyId("text")
+  .innerhtml = "This is Really Cool"
+}
