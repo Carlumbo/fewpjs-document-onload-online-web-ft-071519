@@ -1,9 +1,15 @@
-document.addEventListener( "DOMContentLoaded", function () {
-  updateDOM()
-} );
+// Your code goes here
 
 
-function updateDOM() {
-  document.getElementById( "text" )
-    .innerHTML = "This is really cool!";
+document.addEventListener("DOMContentLoaded", function() {
+  docOnload()
+})
+
+console.log(
+  "This Console.log() fires when index.js loads - before DOMcontentLoaded is triggered"
+)
+
+function docOnload() {
+  document.getElementById("text")
+  .innerHTML = "This is Really Cool!"
 }
